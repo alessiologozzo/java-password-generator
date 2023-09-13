@@ -60,7 +60,7 @@ public class InputInterface {
 				else
 					inputSuccess = true;
 			} catch (NumberFormatException e) {
-				System.out.println("Errore! Devi inserire un numero intero. Riprova");
+				System.out.println("Errore! Devi inserire un numero intero valido. Riprova");
 			}
 		}
 

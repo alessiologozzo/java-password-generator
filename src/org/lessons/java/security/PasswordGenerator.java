@@ -6,7 +6,7 @@ public class PasswordGenerator {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String name = null, surname = null, favoriteColor = null, birthDate = null, password = null;
+		String name = null, surname = null, favoriteColor = null, password = null;
 		int day = 0, month = 0, year = 0;
 		
 		name = InputInterface.getString(scanner, "Inserisci il tuo nome");
